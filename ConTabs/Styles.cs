@@ -70,6 +70,10 @@
 
         public static Style Heavy => new Style('#', '=', '#');
 
+		public static Style BandedColumns => new Style('|', ' ', ' ');
+
+		public static Style BandedRows => new Style(' ', '-', ' ');
+
         public static Style UnicodePipes => new Style('║', '═', '╔', '╗', '╚', '╝', '╬', '╦', '╠', '╩', '╣');
 
 
